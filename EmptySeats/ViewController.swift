@@ -19,6 +19,9 @@ class ViewController: UIViewController {
     }
 
     // TODO:- Programmatically handle image tap https://stackoverflow.com/questions/3907397/uigesturerecognizer-on-uiimageview
+    @IBAction func newPostButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "newPostSegue", sender: self)
+    }
     
 }
 
