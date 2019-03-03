@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var MainView: UIView!
+    @IBOutlet weak var MainTable: UITableView!
+    @IBOutlet weak var NewPostImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    // TODO:- Programmatically handle image tap https://stackoverflow.com/questions/3907397/uigesturerecognizer-on-uiimageview
+    
 }
 
